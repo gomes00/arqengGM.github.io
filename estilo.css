@@ -1,0 +1,120 @@
+/* FOLHA DE ESTILO */
+.caixa{
+	border: 1px solid red;
+}
+.gap{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+html, body{
+	height: 100%
+}
+/* MENU */
+
+nav{
+	height: 200px;
+	background-color: #4d4d4d;
+	border-bottom: 3px solid #f0cf2c;
+}
+nav .row{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+nav a{
+	color: #999999;
+}
+
+nav a:hover, nav a:focus{
+	color: #f0cf2c;
+}
+
+#divBusca{
+	margin-left: 60px;
+	color: #f0cf2c;	
+	background-color: transparent;
+	border:solid 1px;
+	border-color: #f0cf2c;
+	border-radius:15px;
+	width:200px;
+	height: 35px;
+}
+
+#txtBusca{
+	color: #f0cf2c;
+	float:left;
+	background-color:transparent;
+	padding-left:5px;
+	font-style:italic;
+	font-size:18px;
+	border:none;
+	height:32px;
+	width:160px;
+}
+/* /MENU */
+
+/* SITE */
+#meucarousel{
+	margin:10px; 
+	width: 100%;
+	height: 360px;
+}
+
+#meucarousel img{
+	margin:10px; 
+	width: 100%;
+	height: 360px;
+}
+#site h1{
+	margin-top: 20px;
+	color: #4d4d4d;
+	border-bottom: 2px solid #4d4d4d;
+}
+#quem p{
+	color: #4d4d4d;
+}
+
+.projetos{ 
+	margin: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	height: auto;
+}
+
+.projetos:hover{ 
+	opacity: 0.8;
+}
+/* /SITE */
+
+/* /FOOTER */
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #4d4d4d;
+	border-top: 3px solid #f0cf2c;
+}
+/* /FOOTER */
+
+
+/*PROJETOS*/
+
+.pjts{
+	margin-top: 15px;
+	border-top: 1px solid #f0cf2c;
+	padding-top: 15px;
+}
+
+#projeto img:hover{
+	opacity: 0.6;
+}
+
+/*CONTATOS*/
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-account-login {
+  fill: #4d4d4d;
+}
