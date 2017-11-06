@@ -51,6 +51,19 @@ nav a:hover, nav a:focus{
 	height:32px;
 	width:160px;
 }
+
+.navbar li .dropdown-menu { 
+	background-color: #4d4d4d;
+	color: #f0cf2c;
+	border: 1px solid #f0cf2c; 
+}
+.navbar li .dropdown-menu .dropdown-item{ 
+	color: #f0cf2c;
+}
+
+.navbar li .dropdown-menu .dropdown-item:hover, .navbar li .dropdown-menu .dropdown-item:active{ 
+	background-color: #999999;
+}
 /* /MENU */
 
 /* SITE */
